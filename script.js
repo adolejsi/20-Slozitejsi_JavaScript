@@ -9,5 +9,7 @@ barvaOdstavce.style.color = "navy";
 let obrazekLary = document.querySelector(".moje-foto");
 obrazekLary.src = "img/druhe-foto.jpeg";
 
-let nastavTridu = document.querySelector(".tlacitko1");
-nastavTridu.classList.add("zvyrazneny");
+function pridejZvyrazneni() {
+    let tlacitko = document.querySelector(".tlacitko1");
+    tlacitko.classList.add("zvyrazneny")
+}
