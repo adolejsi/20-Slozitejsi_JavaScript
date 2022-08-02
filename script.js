@@ -10,4 +10,4 @@ let obrazekLary = document.querySelector(".moje-foto");
 obrazekLary.src = "img/druhe-foto.jpeg";
 
 let nastavTridu = document.querySelector(".tlacitko1");
-nastavTridu.className = "zvyrazneny";
+nastavTridu.classList.add("zvyrazneny");
